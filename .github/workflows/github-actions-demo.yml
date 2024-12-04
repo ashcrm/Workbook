@@ -53,7 +53,7 @@ jobs:
     environment:
       name: production
       url: https://writeabout.net
-    if: github.event.inputs.environment == 'Production'
+    if: github.event.inputs.environment == 'production'
     steps:
       - run: |
           echo "🚀 Step 1..."
